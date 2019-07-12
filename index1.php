@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<?php
@@ -38,6 +38,7 @@
 <br><br><br><br>
 </form>
 <?php
+//probando
 if(isset($_POST['btnlogin']) && !empty($_POST['user'])
                && !empty($_POST['pass'])){
     $user=$_POST['user'];
